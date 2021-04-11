@@ -5,7 +5,7 @@ public class Twofer {
         if (name == null){
             return "One for you, one for me.";
         } else {
-            return MessageFormat.format("One for {0}, one for me.", name);
+            return "One for " + name + ", one for me.";
         }
     }
 }
